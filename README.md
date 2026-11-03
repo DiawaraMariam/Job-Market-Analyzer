@@ -34,5 +34,35 @@ job-market-analyzer/
 4. How do salaries differ by country and experience level?
 5. Is remote work growing or shrinking in AI and Data Science?
 
+
+
+## Power BI Dashboard
+
+An interactive dashboard built on the cleaned dataset (10,345 postings, 2020-2026).
+Open `Job_Market_Dashboard.pbix` in Power BI Desktop to explore it.
+
+### Overview
+![Overview](screenshots/overview.png)
+
+### Salary by Role
+![Salary by Role](screenshots/salary_by_role.png)
+
+### Skills in Demand
+![Skills in Demand](screenshots/skills.png)
+
+### Remote Work
+![Remote Work](screenshots/remote_work.png)
+
+### Salary by Country
+![Salary by Country](screenshots/salary_by_country.png)
+
+## Key Findings
+
+- **Average salary is about $113K**, and it stays almost flat from 2020 to 2026 (roughly $113K-$114K each year).
+- **AI Engineers and Machine Learning Engineers earn the most** (about $140K), while the other four roles sit around $100K.
+- **Experience level drives pay more than location**: Senior is about $138K, Mid about $114K and Entry about $89K, with nearly the same gap in every country.
+- **Skill demand is evenly spread**: Python, SQL, ML, deep learning and cloud each appear in a similar number of postings.
+- **Remote work is stable**: about 34% of postings are remote, and the Remote/Hybrid/Onsite mix barely changes across years.
+
 ## Project status
 Work in progress — actively being built
